@@ -1,1 +1,2 @@
 g++ -Wall -c "336.cpp"
+g++ -Wall -o "main" "336.cpp"
