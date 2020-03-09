@@ -3,7 +3,7 @@
 using namespace std;
 map< int, int > visited;
 
-void BFS(int s, map< int, vector< int > >G)
+void BFS(int s, map< int, vector< int > >G)  // calling bfs also saves the vertices in visited map
 {
     queue< int >q;
     q.push(s);
