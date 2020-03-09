@@ -45,7 +45,7 @@ int main()
             if(source==0 && ttl==0) break;
             map< int, int>::iterator it;
             visited.clear();
-            BFS(source,G);
+            BFS(source,G); //calling bfs saves all the vertices in visited array
             int count=0;
             for(it=visited.begin(); it!=visited.end();++it)
             {
