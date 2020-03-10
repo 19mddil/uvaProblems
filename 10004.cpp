@@ -13,9 +13,7 @@ void BFS(int s, map< int, vector< int > >G)
     while(!q.empty())
     {
         string x;
-   
-        int top = q.front();
-        
+        int top = q.front();    
         if(color[top] == "r"){
 		x = "b";
 	}
