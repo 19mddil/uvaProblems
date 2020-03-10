@@ -6,7 +6,6 @@ map<int ,string> color;
 
 void BFS(int s, map< int, vector< int > >G)
 {
-    
     queue< int >q;
     q.push(s);
     visited[s] = 0;
@@ -22,8 +21,7 @@ void BFS(int s, map< int, vector< int > >G)
 	}
 	else{
 		x = "r";
-	}
-		
+	}	
         for(int i=0; i<(int)G[top].size(); i++)
         {
            int n = G[top][i];
