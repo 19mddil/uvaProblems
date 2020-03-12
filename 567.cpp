@@ -95,13 +95,10 @@ int main(){
 			c = 0;
 			int x,y;
 			scanf("%d %d",&x,&y);
-			
-			
-				c = BFS(x,y,G);
-				printf("%2d to %2d: %d\n", x, y, c);
-				visited.clear();
-				parent.clear();
-				
+			c = BFS(x,y,G);
+			printf("%2d to %2d: %d\n", x, y, c);
+			visited.clear();
+			parent.clear();
 		}
 		visited.clear();
 		parent.clear();
