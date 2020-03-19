@@ -26,7 +26,7 @@ int BFS(int x,int y, int x1,int y1)  // calling bfs also saves the vertices in v
 			int tx = xaxis + fx[k];
 			int ty = yaxis + fy[k];
 			
-			if( tx >= 0 && tx < n && ty >= 0 && ty < m && G[tx][ty] != 1 && visited[tx][ty] == 0){
+			if( tx >= 0 && tx < m && ty >= 0 && ty < n && G[tx][ty] != 1 && visited[tx][ty] == 0){
 				 //parent[pair<int,int>(tx,ty)] = top;
 				 visited[tx][ty] = visited[top.first][top.second] + 1;
 				 q.push(pair<int,int>(tx,ty));
