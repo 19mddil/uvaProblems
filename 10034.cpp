@@ -1,3 +1,4 @@
+/*its a dense graph submit it using kruskal and have it faster*/
 #include<bits/stdc++.h>
 using namespace std;
 
