@@ -58,9 +58,12 @@ int main(){
 			cin>>s1>>s2;
 			Union(nodes[s1],nodes[s2]);
 		}
-		cout<<q.top()<<endl;
+		if(q.empty()){
+			cout<<1<<endl;
+			continue;
+		}
+		cout<<q.top()<<endl; // when priority queue will be empty it wont show anything so generating an exception
 		q = priority_queue<long long int>();
 	}
 	return 0;
 }
-	
