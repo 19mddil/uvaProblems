@@ -13,6 +13,7 @@ class Queue{
 			data = new char[x];
 			font = rear = -1;
 		}
+	
 		void enqueue(int x){                       ///MAX = 3
 			if(font == -1 && rear == -1){          ///rear = 0 ///false                     ///false                ///false
 				font = rear = 0;                   ///font = 0
