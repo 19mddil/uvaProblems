@@ -68,6 +68,7 @@ int main()
 			}
 			//cout<<endl;
 		}
+		
 		G.clear();
 		visited.clear();
 		color.clear();
