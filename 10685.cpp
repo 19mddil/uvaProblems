@@ -6,8 +6,6 @@ long long int group[5005];
 
 map<string,long long int>nodes;
 
-
-
 void makeSet(long long int x){
 	par[x] =x;
 	group[x] = 1;
