@@ -31,7 +31,6 @@ void back(int x){
 			use[i] = false;
 			res.pop_back();
 		}
-		
 		while((i+1) < n && str[i] == str[i+1]){
 			i++;
 		}
