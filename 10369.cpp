@@ -26,7 +26,6 @@ double dist(double x1,double y1,double x2,double y2){
 vector<edge>edges;
 vector<pair<int,int> >vertices;
 map< pair<int,int> ,pair<int,int> >par;
-
 int cnt;
 
 void clear(){
