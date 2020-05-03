@@ -15,6 +15,7 @@ struct edge{
 		return  this->cost < p.cost  ;
 	}
 };
+
 double dist(double x1,double y1,double x2,double y2){
 	return  sqrt( powf( fabs(x1 - x2) , 2) + powf( fabs(y1 - y2) , 2) );
 }
