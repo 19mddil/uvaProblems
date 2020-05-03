@@ -9,7 +9,7 @@ int visited[1000][1000];
 int G[1000][1000];
 int m,n;
 
-int BFS(int x,int y, int x1,int y1)  // calling bfs also saves the vertices in visited map
+int BFS(int x,int y, int x1,int y1)  //calling bfs also saves the vertices in visited map
 {
     //queue< int >q;
 	queue< pair<int,int> > q;
