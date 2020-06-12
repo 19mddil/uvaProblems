@@ -34,6 +34,7 @@ void dfs(int x){
 }
 
 int main(){
+	
 	G[1].push_back(2);
 	visited[pair<int,int>(1,2)] = false;
 	G[1].push_back(3);
