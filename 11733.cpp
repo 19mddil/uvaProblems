@@ -68,7 +68,7 @@ int main(){
 		}
 		int cunt = 0;
 		int s = 0;
-		sort(edges.begin(),edges.end()); // it prevents repetation sweet khushkal ....
+		sort(edges.begin(),edges.end());  // it prevents repetation sweet khushkal ....
 		for(int j = 0;j<(int)edges.size();j++){
 			int u = Find(edges[j].x);
 			int v= Find(edges[j].y);
