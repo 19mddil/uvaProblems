@@ -1,3 +1,5 @@
+/**Make it faster, its easy to make it faster**/
+
 #include<bits/stdc++.h>
 using namespace std;
 
