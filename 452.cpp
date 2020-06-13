@@ -23,7 +23,6 @@ int main(){
 	cin.ignore();
 	cin.ignore();
 	bool p = false;
-	
 	while(T--){
 		if(p) cout<<endl;
 		p = true;
