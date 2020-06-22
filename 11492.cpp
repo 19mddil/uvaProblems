@@ -40,8 +40,8 @@ int dijkstra(vector< vector< pii > > &G,int source_lan,int des_lan){
 }
 
 int main(){
-	Fin;
-	Fout;
+	//Fin;
+	//Fout;
 	int n;
 	while(cin>>n,n){
 		//cin.ignore();
