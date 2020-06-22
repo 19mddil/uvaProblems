@@ -1,3 +1,5 @@
+/**Implement using Map**/
+
 #include<bits/stdc++.h>
 #define Fin          freopen("input.txt","r",stdin)
 #define Fout         freopen("output.txt","w",stdout)
