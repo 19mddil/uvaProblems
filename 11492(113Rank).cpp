@@ -6,7 +6,6 @@
 
 using namespace std;
 
-
 using pii = pair<int,pair<string,bool> >; /**<language<word,visited> >**/
 
 using px = pair< int,pair<char, int> >; /**< < total <len,last <letter,language > >**/
