@@ -27,7 +27,7 @@ void clear(){
 int dijkstra( ){
 	int source_lan = mp[source];
 	int des_lan = mp[destination];
-	priority_queue<px,vector<px>,greater<px> >pq;
+	priority_queue<px,vector<px>,greater<px> >pq; // this is faster then struct
 	//pq.push(make_pair( 0, make_pair('#',source_lan));
 	pq.push({ 0,{'#',source_lan}});
 
