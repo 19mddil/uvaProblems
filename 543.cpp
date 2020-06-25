@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<math.h>
+/**use binary search if you can for brute force approach which took 15 sec to complete**/
 
 /*
 #define Fin          freopen("input.txt","r",stdin)
